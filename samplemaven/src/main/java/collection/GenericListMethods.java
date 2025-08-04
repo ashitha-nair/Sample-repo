@@ -24,6 +24,23 @@ System.out.println(l);
 		System.out.println(l.contains("black"));
 		System.out.println(l.isEmpty());
 		System.out.println(l.size());
+		
+		// for each
+		//for(type variable:listname)
+		List<String> m=new ArrayList<String>();
+		m.add("fire");
+		m.add("water");
+		m.add("sand");
+		for(String r:m) 
+		{
+			System.out.println(r);
+		}
+		int y[]= {4, 5, 6};
+		for (int c:y)
+		{
+			System.out.println(c);
+		}
+		
 	}
 
 }
